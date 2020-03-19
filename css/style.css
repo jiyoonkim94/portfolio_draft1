@@ -300,7 +300,31 @@ button {
   border-radius: 4px;
 }
 
+/* extra */
+/* <!-- I learn the code from: https://codepen.io/dlesaca/pen/LatwF --> */
+#container {
+  margin-top: -130px;
+  margin-left: 100px;
+  margin-right: 3px;
+}
 
+.dog-head {
+z-index: 100;
+margin-left: 300px;
+
+-webkit-animation: head-move 1s ease-in-out infinite;
+}
+
+
+
+
+/*ANIMATIONS
+---------------------------------------------------------*/
+@-webkit-keyframes head-move {
+  50% { 
+    -webkit-transform: rotate(-1.5deg); 
+}
+}
 
 /*footer*/
 .footer {
@@ -347,6 +371,19 @@ nav {
   grid-template-columns: auto;
 }
 
+/* extra */
+#container {
+  margin-top: -130px;
+  margin-left: 100px;
+  margin-right: 3px;
+}
+
+.dog-head {
+z-index: 100;
+margin-left: 300px;
+-webkit-animation: head-move 1s ease-in-out infinite;
+} 
+  
 .grid {
   grid-template-columns: auto;
 }
@@ -389,6 +426,25 @@ button{
   margin-bottom: 15px;
 }
 
+/* extra */
+#container {
+  display: grid;
+  grid-column: auto auto;
+  margin-top: -130px;
+  margin-left: 220px;
+}
+
+.dog-head {
+z-index: 100;
+margin-left: 300px;
+-webkit-animation: head-move 1s ease-in-out infinite;
+}
+
+.dog-head-image{
+  width: 15vw;
+  padding-left: 15%;
+}  
+  
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
@@ -445,6 +501,23 @@ button{
     grid-template-columns: auto auto auto;
     text-align: center;
   }
+  
+  /* extra */
+  #container {
+    margin-top: -130px;
+    margin-left: 650px;
+  }
+  
+  .dog-head {
+  z-index: 100;
+  margin-left: 300px;
+  -webkit-animation: head-move 1s ease-in-out infinite;
+  }
+
+  .dog-head-image{
+    width: 8vw;
+  }
+  
   /* formnew */
   button{
   width: 200px;
